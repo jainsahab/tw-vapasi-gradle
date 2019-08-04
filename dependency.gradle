@@ -1,0 +1,10 @@
+task sayHi {
+    print "Hi ThoughtWorks !!\n"
+}
+
+task greet {
+    dependsOn sayHi
+    doLast {
+        print "I am gradle.\n"
+    }
+}
