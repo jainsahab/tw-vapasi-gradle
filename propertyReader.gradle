@@ -1,0 +1,3 @@
+task greetFromProperty {
+        println "I live in ${cityName}"
+}
