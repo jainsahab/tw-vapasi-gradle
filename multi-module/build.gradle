@@ -1,0 +1,14 @@
+println "In build.gradle: This is executed during the configuration phase"
+
+task explainGradlePhases {
+    println "In explainGradlePhases: This is executed during the configuration phase"
+
+    doFirst {
+        println "This is executed first during the execution phase"
+    }
+
+    doLast {
+        println "This is executed last during the execution phase"
+    }
+
+}

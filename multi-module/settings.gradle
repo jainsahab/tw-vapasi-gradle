@@ -1,0 +1,2 @@
+println "In settings.gradle: This is executed during the initialization phase"
+include ':proj1', ':proj2'
