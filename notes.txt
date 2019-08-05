@@ -5,4 +5,5 @@ expressive.gradle
     dynamic tasks
 dependency.gradle
 propertyReader.gradle
-multi-module
+multi-module [settings.gradle and build lifecycle]
+java-plugin
