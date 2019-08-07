@@ -1,1 +1,7 @@
 println "This is executed during project 1's configuration phase"
+
+task describe {
+    doLast {
+        println "Project 1 Task"
+    }
+}
